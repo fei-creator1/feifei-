@@ -1,0 +1,158 @@
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+a:focus {
+	outline: thin dotted
+}
+
+a:active,a:hover {
+	outline: 0
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0
+}
+
+.book-body .body-inner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	overflow-y: auto
+}
+
+.page-inner {
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 15px 40px
+}
+
+.markdown-section {
+	display: block;
+	word-wrap: break-word;
+	overflow: hidden;
+	color: #333;
+	line-height: 1.7;
+	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%
+}
+
+.markdown-section * {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: inherit
+}
+
+.markdown-section>:first-child {
+	margin-top: 0!important
+}
+
+.markdown-section h1 {
+	font-size: 2em
+}
+
+.markdown-section blockquote {
+	margin: 0;
+	margin-bottom: .85em;
+	padding: 0 15px;
+	color: #858585;
+	border-left: 4px solid #e5e5e5
+}
+
+.sa-last-update-time {
+	color: #8e908c;
+	font-size: 14px
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: none;
+	-webkit-touch-callout: none;
+	-webkit-font-smoothing: antialiased；
+
+
+    
+}
+
+a {
+	text-decoration: none
+}
+
+body,html {
+	height: 100%
+}
+
+html {
+	font-size: 62.5%
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	font-family: helvetica neue,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	letter-spacing: .2px;
+	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%；
+}
+
+.banquan {
+	text-align: center;
+	padding: 25px;
+	color: #a0a0a0
+}
+
+.page-inner h1:hover .anchorjs-link:before,.page-inner h2:hover .anchorjs-link:before,.page-inner h3:hover .anchorjs-link:before,.page-inner h4:hover .anchorjs-link:before,.page-inner h5:hover .anchorjs-link:before,.page-inner h6:hover .anchorjs-link:before {
+	opacity: 1
+}[data-anchorjs-icon]:before {
+	content: "\f0c1";
+	font-family: fontawesome;
+	opacity: 0;
+	font-size: 22px;
+	padding-left: .375em;
+	font-weight: 100
+}
+
+.body-content{
+    font-weight: bold;
+}
+
+.body-content p{
+    font-weight: lighter;
+    padding: 0px 0px;
+}
+
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: rgba(255,255,255,0.2);;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.body-inner{
+	background: url(http://longjiaming.com/img/01.jpg);
+	/* background: url("../0548.jpg"); */
+}

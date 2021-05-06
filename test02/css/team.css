@@ -1,0 +1,328 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+p{
+    font-family: "楷体";
+    font-size: 1em;
+}
+img{
+    border-radius: 20px!important;
+}
+.canr{
+    border-radius: 20px!important;
+}
+hr{
+    width: 100px;
+}
+.header{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    width: 80%;
+    height: 30%;
+}
+#demo{
+    height: 100%;
+    width: 100%;
+}
+.carousel-inner img {
+    display: block;
+    width:100%;
+    max-height: 600px; 
+ }  
+.content{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+.team1{
+    width: 100%;
+    height:23%;
+    margin-bottom: 4%;
+    text-align: center;
+
+    display: flex;
+}
+.team2{
+    width: 55%;
+    height:30%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    margin: auto;
+
+    display: flex;
+}
+
+.t1{
+    width: 20%;
+    height: 100%;
+    margin-left: 7%;
+    margin-right: 5%;
+
+}
+.t1 img{
+    width: 100%;
+    /* height: 240px; */
+    /* border: 1px solid black; */
+    border-radius: 15px;
+}
+.t2{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-right: 3%;
+
+}
+.t2 img{
+    width: 80%;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+}
+.con{
+    height: 46%;
+    display: flex;
+    margin-bottom: 5%;
+}
+.left{
+    margin-top: 20px;
+    padding-left: 20px;
+    flex-grow: 5;
+    padding-top: 5%;
+    display: flex;
+}
+.tright{
+    padding-right: 40px;
+    flex-grow: 5;
+
+    padding-top: 5%;
+    display: flex;
+}
+.sm{
+    width: 40%;
+}
+.right{
+    padding: 30px;
+    flex-grow: 5;
+ 
+}
+.tleft{
+    padding: 30px;
+    flex-grow: 5;
+}
+.la{
+    height: 5%;
+}
+
+.image-hover * {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.image-hover {position:relative;display:inline-block;overflow:hidden;background:#fff;border:10px solid #fff;
+box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3);-moz-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.3);border-radius: 20px;}
+.image-hover a {text-decoration:none}
+
+.image-hover img {margin:0px 0px 0px 0px}
+
+.img-shadow-1
+{
+-webkit-box-shadow: 0 28px 16px -26px black;
+-moz-box-shadow: 0 28px 16px -26px black;
+box-shadow: 0 28px 16px -26px black;
+}
+
+.img-shadow-1:hover
+{
+transform:scale(1.1);
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+
+-webkit-box-shadow: 0 58px 36px -56px black;
+-moz-box-shadow: 0 58px 36px -56px black;
+box-shadow: 0 58px 36px -56px black;
+}
+
+.img-shadow-1
+{
+transition:all .6s ease-in-out;
+-webkit-transition:all .6s ease-in-out;
+-moz-transition:all .6s ease-in-out;
+-ms-transition:all .6s ease-in-out;
+-o-transition:all .6s ease-in-out;
+}
+
+.img-shadow-1:hover
+{
+transition:all .6s ease-in-out;
+-webkit-transition:all .6s ease-in-out;
+-moz-transition:all .6s ease-in-out;
+-ms-transition:all .6s ease-in-out;
+-o-transition:all .6s ease-in-out;
+}
+@media screen and (min-width:4000px) and (max-width: 8000px) {
+    p{
+        font-size: 2.0em;
+    }
+    .header{
+        width: 100%;
+    }
+    .team1{
+        height:30%;
+    }
+    .team2{
+        height: 30%;
+    }
+    .con{
+        height: 40%;
+    }
+    .la{
+        height: 15%;
+    }
+    .p-3{
+        padding: 8px!important;
+    }
+    .carousel-indicators li{
+        width: 15px;
+    }
+    .carousel-inner img{
+        max-height: 100%;
+    }
+}
+@media screen and (min-width:2300px) and (max-width: 4000px) {
+    p{
+        font-size: 2.0em;
+    }
+    .header{
+        width: 100%;
+    }
+    .team1{
+        height:30%;
+    }
+    .team2{
+        height: 30%;
+    }
+    .con{
+        height: 40%;
+    }
+    .la{
+        height: 15%;
+    }
+    .p-3{
+        padding: 6px!important;
+    }
+    .carousel-indicators li{
+        width: 15px;
+    }
+    .carousel-inner img{
+        max-height: 100%;
+    }
+}
+@media screen and (min-width:1500px) and (max-width: 2300px) {
+    p{
+        font-size: 2.3em;
+    }
+    .header{
+        width: 100%;
+    }
+    .team1{
+        height:35%;
+    }
+    .team2{
+        height: 40%;
+    }
+    .con{
+        height: 43%;
+    }
+    .la{
+        height: 5%;
+    }
+    .p-3{
+        padding: 2px!important;
+    }
+    .carousel-indicators li{
+        width: 13px;
+    }
+}
+
+
+@media screen and (min-width:1024px) and (max-width: 1500px) {
+    p{
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (min-width:370px) and (max-width: 750px) {
+    p{
+        font-size: 1em;
+    }
+    .header{
+        width: 100%;
+    }
+    .team1{
+        height: 15%;
+    }
+    .team2{
+        height: 15%;
+    }
+    .p-3{
+        padding: 5px!important;
+    }
+    .carousel-indicators li{
+        width: 13px;
+    }
+    .con{
+        height: 20%;
+        margin-bottom: 10%;
+    }
+    .la{
+        height: 5%;
+    }
+    .tleft{
+        margin-right: 30px;
+        overflow: hidden;
+        overflow-y:scroll;
+    }
+    .right{
+        margin-right: 30px;
+        overflow: hidden;
+        overflow-y:scroll;
+    }
+    
+}
+
+@media screen and (max-width: 370px) {
+    .header{
+        width: 100%;
+    }
+    .team1{
+        height: 8%;
+    }
+    .team2{
+        height: 9%;
+    }
+    .p-3{
+        padding: 2px!important;
+    }
+    .carousel-indicators li{
+        width: 13px;
+    }
+    .con{
+        height: 18%;
+    }
+    .la{
+        height: 5%;
+    }
+    .tleft{
+        overflow-y:scroll;
+    }
+    .tleft{
+        margin-right: 30px;
+        overflow: hidden;
+        overflow-y:scroll;
+    }
+    .right{
+        margin-right: 30px;
+        overflow: hidden;
+        overflow-y:scroll;
+    }
+}
